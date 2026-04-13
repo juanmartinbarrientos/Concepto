@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOMO - El Alfajor Definitivo</title>
+    <meta name="description" content="FOMO: Alfajores artesanales argentinos con el mejor dulce de leche y chocolate premium.">
+    
+    <!-- Meta etiquetas para compartir en WhatsApp y Redes Sociales -->
+    <meta property="og:title" content="FOMO - El Alfajor Definitivo">
+    <meta property="og:description" content="No es solo un alfajor argentino. Es una obsesión bañada en chocolate y rellena del mejor dulce de leche.">
+    <meta property="og:image" content="https://TU_USUARIO_DE_GITHUB.github.io/FOMO/assets/bg.png">
+    <meta property="og:url" content="https://TU_USUARIO_DE_GITHUB.github.io/FOMO/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background video/animation layer -->
+    <div class="bg-layer">
+        <div class="bg-image main-bg"></div>
+        <div class="overlay-gradient"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">FOMO</div>
+        <ul class="nav-links">
+            <li><a href="#origen">Origen</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#comprar" class="btn-primary">Probar ahora</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="reveal-text"><span>Fear</span> <span>Of</span> <span>Missing</span> <span>Out.</span></h1>
+            <p class="subtitle hide-on-load">No es solo un alfajor argentino. Es una obsesión de chocolate y dulce de leche.</p>
+            <a href="#experiencia" class="scroll-down hide-on-load">
+                <span>Descubrir</span>
+                <div class="arrow">↓</div>
+            </a>
+        </div>
+    </header>
+
+    <!-- Details Section -->
+    <section id="experiencia" class="cards-section">
+        <div class="container">
+            <h2 class="section-title">La Anatomía del Placer</h2>
+            
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="glass-card element-reveal">
+                    <div class="card-image-wrapper">
+                        <!-- Image placeholder - using local path but should be relative -->
+                        <div class="card-image" style="background-image: url('assets/card1.png')"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Corazón Líquido</div>
+                        <h3>Dulce de Leche Premium</h3>
+                        <p>Doble capa de dulce de leche colonial, espeso y con el punto exacto de caramelo que se funde en tu boca.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card element-reveal delay-1">
+                    <div class="card-image-wrapper">
+                        <div class="card-image" style="background-image: url('assets/card2.png')"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Cobertura 70% Cacao</div>
+                        <h3>Chocolate Oscuro</h3>
+                        <p>Bañado en un intenso chocolate amargo templado a la perfección, que equilibra la dulzura interior.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Circles Section -->
+    <section id="origen" class="circles-section">
+        <div class="container">
+            <div class="split-layout">
+                <div class="text-column element-reveal">
+                    <h2 class="serif-title">El Arte de la Perfección</h2>
+                    <p>Cada alfajor FOMO es ensamblado a mano. No usamos conservantes, solo ingredientes reales buscando la textura perfecta entre la galleta suave y el relleno explosivo.</p>
+                </div>
+                <div class="visual-column">
+                    <div class="floating-circle circle-1">
+                        <span class="circle-text">100%<br>Artesanal</span>
+                    </div>
+                    <div class="floating-circle circle-2" style="background-image: url('assets/bg.png')">
+                    </div>
+                    <div class="floating-circle circle-3">
+                        <span class="circle-text">Sin<br>Culpa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <h2 class="footer-logo">FOMO</h2>
+            <p>© 2026 FOMO Alfajores. Buenos Aires, Argentina.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
